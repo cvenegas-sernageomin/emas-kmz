@@ -30,6 +30,22 @@ Si más adelante quieres que se actualice solo, existe `Registrar-Tarea.ps1`:
 `.\Registrar-Tarea.ps1 -IntervaloMin 30`.
 Para quitarla: `Unregister-ScheduledTask -TaskName "EMAs-Chile-Actualizar" -Confirm:$false`
 
+## Compartir el KMZ con otra persona
+
+El `EMAs_Chile.kmz` normal **no es portátil**: por dentro apunta a un archivo de ESTA PC
+(`file:///...`), así que en otro computador abre vacío.
+
+Para compartir, genera un **KMZ snapshot autocontenido** (una foto del momento, un solo
+archivo que funciona en cualquier PC, sin scripts):
+
+```powershell
+.\Actualizar-EMAs.ps1        # datos frescos
+.\Crear-KMZ.ps1 -Snapshot    # crea EMAs_Chile_snapshot.kmz (portatil)
+```
+
+Envía **`EMAs_Chile_snapshot.kmz`**. No se actualiza solo: para mandar datos nuevos,
+repites los dos comandos y reenvías el archivo.
+
 ## Configuración (`config.json`)
 
 - `umbrales`: niveles de alerta y `gradienteCkm` (gradiente para la isoterma).
