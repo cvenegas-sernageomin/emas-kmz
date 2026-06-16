@@ -4,17 +4,31 @@ Muestra las Estaciones Meteorológicas Automáticas (EMAs) de la DMC en Google E
 actualizándose cada 15 min, con alertas por tasa de precipitación (mm/h) e isoterma
 0°C estimada (riesgo de aluvión). Usa el **visor público** de la DMC; **no requiere cuenta ni token**.
 
-## Puesta en marcha
+## Puesta en marcha (una sola vez)
 
 1. Genera la lista de estaciones: `.\Construir-ListaEstaciones.ps1` (crea `estaciones.json`, ~149 EMAs).
 2. Primera corrida: `.\Actualizar-EMAs.ps1` (crea `red_ema.kml` y `estado.json`). Tarda ~2 min.
-   - La **tasa mm/h** aparece desde la 2ª corrida (necesita comparar dos lecturas).
-   - Para una prueba rápida: `.\Actualizar-EMAs.ps1 -MaxEstaciones 5`.
 3. Genera el KMZ una vez: `.\Crear-KMZ.ps1`.
-4. Programa el refresco automático: `.\Registrar-Tarea.ps1` (tarea de usuario, sin admin).
-5. Abre `EMAs_Chile.kmz` en Google Earth Pro. Recarga solo cada 15 min.
+4. Abre `EMAs_Chile.kmz` en Google Earth Pro.
 
-Para quitar la tarea programada: `Unregister-ScheduledTask -TaskName "EMAs-Chile-Actualizar" -Confirm:$false`
+## Uso diario — refresco MANUAL
+
+El refresco es manual (no hay tarea programada). Cuando quieras datos frescos:
+
+- **Doble clic en `Actualizar.cmd`** (o corre `.\Actualizar-EMAs.ps1`). Esto vuelve a
+  descargar las estaciones y reescribe `red_ema.kml`.
+- En Google Earth Pro: **clic derecho sobre "EMAs Chile" → Actualizar/Refresh** para verlo
+  al instante (o espera: el NetworkLink lo recarga solo cada 15 min).
+
+Notas:
+- La **tasa mm/h** aparece desde la 2ª actualización (compara dos lecturas del acumulado).
+- Prueba rápida con pocas estaciones: `.\Actualizar-EMAs.ps1 -MaxEstaciones 5`.
+
+### (Opcional) Refresco automático cada X min
+
+Si más adelante quieres que se actualice solo, existe `Registrar-Tarea.ps1`:
+`.\Registrar-Tarea.ps1 -IntervaloMin 30`.
+Para quitarla: `Unregister-ScheduledTask -TaskName "EMAs-Chile-Actualizar" -Confirm:$false`
 
 ## Configuración (`config.json`)
 
