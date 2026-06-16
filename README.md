@@ -46,6 +46,29 @@ archivo que funciona en cualquier PC, sin scripts):
 Envía **`EMAs_Chile_snapshot.kmz`**. No se actualiza solo: para mandar datos nuevos,
 repites los dos comandos y reenvías el archivo.
 
+## Compartir CON refresh dinámico (en línea, vía GitHub)
+
+El `red_ema.kml` se aloja en GitHub (repo público `cvenegas-sernageomin/emas-kmz`, rama
+`live`) y el KMZ compartido apunta a esa URL pública. Quien lo abra ve los datos
+actualizándose solos. Dos cosas mantienen el KML al día:
+
+- **(2) GitHub Actions** — el workflow `.github/workflows/publicar.yml` corre **cada 30 min**
+  en la nube (aunque tu PC esté apagado) y publica el KML. También se puede lanzar a mano
+  desde la pestaña **Actions → "Publicar KML EMAs" → Run workflow** (update inmediato sin tu PC).
+- **(1) Tu PC** — **doble clic en `Publicar.cmd`** (o `.\Publicar-Online.ps1`): descarga datos
+  y los empuja a `live` al instante.
+
+Genera el KMZ a compartir (una vez) y envíalo:
+
+```powershell
+.\Crear-KMZ.ps1 -Online   # crea EMAs_Chile_online.kmz (apunta a la URL publica)
+```
+
+`EMAs_Chile_online.kmz` es liviano y portátil: cualquiera lo abre en Google Earth y se le
+auto-refresca. URL pública del dato:
+`https://raw.githubusercontent.com/cvenegas-sernageomin/emas-kmz/live/red_ema.kml`
+(el CDN de GitHub cachea ~5 min, así que un cambio puede tardar unos minutos en verse).
+
 ## Configuración (`config.json`)
 
 - `umbrales`: niveles de alerta y `gradienteCkm` (gradiente para la isoterma).
