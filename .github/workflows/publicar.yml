@@ -1,0 +1,40 @@
+name: Publicar KML EMAs
+
+on:
+  schedule:
+    - cron: '*/30 * * * *'   # cada 30 min (UTC; GitHub puede retrasar la ejecucion)
+  workflow_dispatch: {}        # boton "Run workflow" en la pestana Actions = update inmediato
+
+permissions:
+  contents: write
+
+concurrency:
+  group: publicar-kml
+  cancel-in-progress: false
+
+jobs:
+  publicar:
+    runs-on: windows-latest
+    steps:
+      - name: Checkout codigo (main)
+        uses: actions/checkout@v4
+
+      - name: Restaurar estado previo desde la rama live
+        shell: bash
+        run: |
+          curl -sf "https://raw.githubusercontent.com/${{ github.repository }}/live/estado.json" -o estado.json || echo "{}" > estado.json
+
+      - name: Scrapear estaciones y generar red_ema.kml
+        shell: powershell
+        run: .\Actualizar-EMAs.ps1
+
+      - name: Publicar red_ema.kml + estado.json a la rama live
+        shell: bash
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git checkout --orphan live-tmp
+          git rm -r --cached . > /dev/null 2>&1 || true
+          git add -f red_ema.kml estado.json
+          git commit -m "data: actualizacion automatica $(date -u +%FT%TZ)"
+          git push -f origin HEAD:live
