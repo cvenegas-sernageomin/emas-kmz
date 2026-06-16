@@ -2,7 +2,7 @@ name: Publicar KML EMAs
 
 on:
   schedule:
-    - cron: '*/30 * * * *'   # cada 30 min (UTC; GitHub puede retrasar la ejecucion)
+    - cron: '0 * * * *'      # cada 60 min, en punto (UTC; GitHub puede retrasar la ejecucion)
   workflow_dispatch: {}        # boton "Run workflow" en la pestana Actions = update inmediato
 
 permissions:

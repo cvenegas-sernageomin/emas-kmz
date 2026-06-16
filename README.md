@@ -52,9 +52,10 @@ El `red_ema.kml` se aloja en GitHub (repo público `cvenegas-sernageomin/emas-km
 `live`) y el KMZ compartido apunta a esa URL pública. Quien lo abra ve los datos
 actualizándose solos. Dos cosas mantienen el KML al día:
 
-- **(2) GitHub Actions** — el workflow `.github/workflows/publicar.yml` corre **cada 30 min**
-  en la nube (aunque tu PC esté apagado) y publica el KML. También se puede lanzar a mano
-  desde la pestaña **Actions → "Publicar KML EMAs" → Run workflow** (update inmediato sin tu PC).
+- **(2) GitHub Actions** — el workflow `.github/workflows/publicar.yml` corre **cada 60 min**
+  en la nube (aunque tu PC esté apagado) y publica el KML. La descarga usa **gzip** (~7×
+  menos tráfico al servidor DMC). También se lanza a mano desde la pestaña
+  **Actions → "Publicar KML EMAs" → Run workflow** (update inmediato sin tu PC).
 - **(1) Tu PC** — **doble clic en `Publicar.cmd`** (o `.\Publicar-Online.ps1`): descarga datos
   y los empuja a `live` al instante.
 
