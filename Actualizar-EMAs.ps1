@@ -19,6 +19,20 @@ $estPath    = Join-Path $here $cfg.rutas.estaciones
 
 function Write-Log { param($m) Add-Content -Path $logPath -Value ("{0}  {1}" -f (Get-Date -Format "yyyy-MM-dd HH:mm:ss"), $m) -Encoding UTF8 }
 
+# Descarga con gzip (el servidor DMC lo soporta) -> ~7x menos trafico que sin comprimir
+function Get-HtmlGzip {
+    param([string]$Url, [int]$TimeoutSeg, [string]$UserAgent)
+    $req = [System.Net.HttpWebRequest]::Create($Url)
+    $req.UserAgent = $UserAgent
+    $req.Timeout = $TimeoutSeg * 1000
+    $req.AutomaticDecompression = [System.Net.DecompressionMethods]::GZip -bor [System.Net.DecompressionMethods]::Deflate
+    $resp = $req.GetResponse()
+    try {
+        $sr = New-Object System.IO.StreamReader($resp.GetResponseStream())
+        try { return $sr.ReadToEnd() } finally { $sr.Close() }
+    } finally { $resp.Close() }
+}
+
 try {
     $codigos = Get-Content $estPath -Raw | ConvertFrom-Json
     if ($MaxEstaciones -gt 0) { $codigos = $codigos | Select-Object -First $MaxEstaciones }
@@ -39,8 +53,7 @@ try {
         $codStr = [string]$cod
         try {
             $url = "https://climatologia.meteochile.gob.cl/application/diariob/visorDeDatosEma/$codStr"
-            $resp = Invoke-WebRequest -UseBasicParsing -Uri $url -TimeoutSec $cfg.scraping.timeoutSeg -UserAgent $cfg.scraping.userAgent
-            $html = $resp.Content
+            $html = Get-HtmlGzip -Url $url -TimeoutSeg $cfg.scraping.timeoutSeg -UserAgent $cfg.scraping.userAgent
 
             $info  = Get-EmaInfo -Html $html
             $temp  = Get-EmaTempActual -Html $html
