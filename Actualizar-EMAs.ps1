@@ -1,17 +1,21 @@
 [CmdletBinding()]
 param(
-    [string]$ConfigPath = (Join-Path $PSScriptRoot "config.json"),
+    [string]$ConfigPath,
     [int]$MaxEstaciones = 0   # 0 = todas
 )
 
-. (Join-Path $PSScriptRoot "src\EmaParse.ps1")
-. (Join-Path $PSScriptRoot "src\EmaFunctions.ps1")
+# $PSScriptRoot puede venir vacio en el param() bajo -File; resolver en el cuerpo
+$here = if ($PSScriptRoot) { $PSScriptRoot } else { Split-Path -Parent $MyInvocation.MyCommand.Path }
+if (-not $ConfigPath) { $ConfigPath = Join-Path $here "config.json" }
+
+. (Join-Path $here "src\EmaParse.ps1")
+. (Join-Path $here "src\EmaFunctions.ps1")
 
 $cfg = Get-Content $ConfigPath -Raw | ConvertFrom-Json
-$logPath    = Join-Path $PSScriptRoot $cfg.rutas.log
-$kmlPath    = Join-Path $PSScriptRoot $cfg.rutas.kmlSalida
-$estadoPath = Join-Path $PSScriptRoot $cfg.rutas.estado
-$estPath    = Join-Path $PSScriptRoot $cfg.rutas.estaciones
+$logPath    = Join-Path $here $cfg.rutas.log
+$kmlPath    = Join-Path $here $cfg.rutas.kmlSalida
+$estadoPath = Join-Path $here $cfg.rutas.estado
+$estPath    = Join-Path $here $cfg.rutas.estaciones
 
 function Write-Log { param($m) Add-Content -Path $logPath -Value ("{0}  {1}" -f (Get-Date -Format "yyyy-MM-dd HH:mm:ss"), $m) -Encoding UTF8 }
 

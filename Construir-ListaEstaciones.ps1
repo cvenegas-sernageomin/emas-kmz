@@ -1,8 +1,10 @@
 [CmdletBinding()]
 param(
     [string]$Grupo = "EMAPublicadas",
-    [string]$Salida = (Join-Path $PSScriptRoot "estaciones.json")
+    [string]$Salida
 )
+$here = if ($PSScriptRoot) { $PSScriptRoot } else { Split-Path -Parent $MyInvocation.MyCommand.Path }
+if (-not $Salida) { $Salida = Join-Path $here "estaciones.json" }
 $url = "https://climatologia.meteochile.gob.cl/application/informacion/estacionesEnGrupo/$Grupo"
 $r = Invoke-WebRequest -UseBasicParsing -Uri $url -TimeoutSec 60
 $codigos = [regex]::Matches($r.Content, '(?:visorDeDatosEma|fichaDeEstacion)/(\d+)') |

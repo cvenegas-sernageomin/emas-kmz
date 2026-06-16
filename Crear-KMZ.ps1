@@ -1,9 +1,12 @@
 [CmdletBinding()]
 param(
-    [string]$KmlObjetivo = (Join-Path $PSScriptRoot "red_ema.kml"),
-    [string]$KmzSalida   = (Join-Path $PSScriptRoot "EMAs_Chile.kmz"),
+    [string]$KmlObjetivo,
+    [string]$KmzSalida,
     [int]$IntervaloSeg   = 900
 )
+$here = if ($PSScriptRoot) { $PSScriptRoot } else { Split-Path -Parent $MyInvocation.MyCommand.Path }
+if (-not $KmlObjetivo) { $KmlObjetivo = Join-Path $here "red_ema.kml" }
+if (-not $KmzSalida)   { $KmzSalida   = Join-Path $here "EMAs_Chile.kmz" }
 Add-Type -AssemblyName System.IO.Compression.FileSystem
 
 $carpeta = (Resolve-Path -LiteralPath (Split-Path $KmlObjetivo -Parent)).Path

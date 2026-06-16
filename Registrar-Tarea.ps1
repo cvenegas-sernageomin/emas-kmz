@@ -3,7 +3,8 @@ param(
     [string]$NombreTarea = "EMAs-Chile-Actualizar",
     [int]$IntervaloMin = 15
 )
-$script = Join-Path $PSScriptRoot "Actualizar-EMAs.ps1"
+$here = if ($PSScriptRoot) { $PSScriptRoot } else { Split-Path -Parent $MyInvocation.MyCommand.Path }
+$script = Join-Path $here "Actualizar-EMAs.ps1"
 $accion = New-ScheduledTaskAction -Execute "powershell.exe" `
     -Argument "-NoProfile -NonInteractive -ExecutionPolicy Bypass -File `"$script`""
 $disparador = New-ScheduledTaskTrigger -Once -At (Get-Date) `
