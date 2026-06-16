@@ -18,8 +18,12 @@ function Get-AlertLevel {
     if ($null -eq $FreezingLevel) { return 'gris' }   # sin temperatura = sin dato reciente
     $p = if ($null -ne $PrecipRate) { [double]$PrecipRate } else { 0.0 }
     $iso = [double]$FreezingLevel
+    # rojo: lluvia intensa Y isoterma alta (combo aluvion)
     if ($p -ge $Umbrales.rojoPrecip -and $iso -ge $Umbrales.rojoIso) { return 'rojo' }
-    if ($p -ge $Umbrales.amarilloPrecip -or $iso -ge $Umbrales.amarilloIso) { return 'amarillo' }
+    # amarillo: lluvia sobre umbral por si sola...
+    if ($p -ge $Umbrales.amarilloPrecip) { return 'amarillo' }
+    # ...o algo de lluvia con isoterma alta (la isoterma sola, sin lluvia, no alerta)
+    if ($p -gt 0 -and $iso -ge $Umbrales.amarilloIso) { return 'amarillo' }
     return 'verde'
 }
 

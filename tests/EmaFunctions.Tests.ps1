@@ -31,17 +31,20 @@ Describe "Get-AlertLevel" {
     It "rojo: precip alta Y isoterma alta (combo aluvion)" {
         Get-AlertLevel -PrecipRate 12 -FreezingLevel 3100 -Umbrales $umbrales | Should Be "rojo"
     }
-    It "amarillo: solo precip sobre umbral" {
+    It "amarillo: lluvia sobre umbral por si sola" {
         Get-AlertLevel -PrecipRate 6 -FreezingLevel 1000 -Umbrales $umbrales | Should Be "amarillo"
     }
-    It "amarillo: solo isoterma sobre umbral" {
+    It "amarillo: algo de lluvia con isoterma alta" {
         Get-AlertLevel -PrecipRate 1 -FreezingLevel 2600 -Umbrales $umbrales | Should Be "amarillo"
+    }
+    It "verde: isoterma alta pero SIN lluvia (no es aluvion)" {
+        Get-AlertLevel -PrecipRate 0 -FreezingLevel 2800 -Umbrales $umbrales | Should Be "verde"
     }
     It "verde: todo bajo umbral" {
         Get-AlertLevel -PrecipRate 1 -FreezingLevel 1000 -Umbrales $umbrales | Should Be "verde"
     }
-    It "verde: estacion viva sin tasa aun (precip null, isoterma presente)" {
-        Get-AlertLevel -PrecipRate $null -FreezingLevel 1000 -Umbrales $umbrales | Should Be "verde"
+    It "verde: estacion viva sin tasa aun (precip null, isoterma alta)" {
+        Get-AlertLevel -PrecipRate $null -FreezingLevel 2800 -Umbrales $umbrales | Should Be "verde"
     }
     It "gris: sin temperatura (isoterma null)" {
         Get-AlertLevel -PrecipRate $null -FreezingLevel $null -Umbrales $umbrales | Should Be "gris"
