@@ -1,0 +1,1648 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+ <Document>
+  <name>EMAs Chile - generado 2026-09-05 16:20:32 UTC</name>
+  <Style id="nivel-verde"><IconStyle><color>ff00ff00</color><scale>1.1</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Style id="nivel-amarillo"><IconStyle><color>ff00ffff</color><scale>1.2</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Style id="nivel-rojo"><IconStyle><color>ff0000ff</color><scale>1.4</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Style id="nivel-gris"><IconStyle><color>ff888888</color><scale>0.9</scale><Icon><href>http://maps.google.com/mapfiles/kml/shapes/placemark_circle.png</href></Icon></IconStyle></Style>
+  <Placemark>
+    <name>Visviri Tenencia</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Visviri Tenencia</b> (codigo 170001)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 14.6 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 11:40 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-69.4775,-17.595,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chacalluta, Arica Ap.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Chacalluta, Arica Ap.</b> (codigo 180005)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 21.9 C<br/>
+Isoterma 0C (estimada por gradiente): 3420 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.34028,-18.35556,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Putre</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Putre</b> (codigo 180017)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 15.6 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-69.5625,-18.2,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Defensa Civil, Arica</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Defensa Civil, Arica</b> (codigo 180018)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 20.7 C<br/>
+Isoterma 0C (estimada por gradiente): 3256 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.30139,-18.49111,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cerro Sombrero, Arica</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Cerro Sombrero, Arica</b> (codigo 180042)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 21.9 C<br/>
+Isoterma 0C (estimada por gradiente): 3491 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.26556,-18.5125,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Colchane</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Colchane</b> (codigo 190010)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 17.7 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 11:40 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-68.63972,-19.27694,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Diego Aracena Iquique Ap.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Diego Aracena Iquique Ap.</b> (codigo 200006)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 20.9 C<br/>
+Isoterma 0C (estimada por gradiente): 3263 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.18111,-20.54917,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La Huayca, Pozo Almonte</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>La Huayca, Pozo Almonte</b> (codigo 200007)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 29.8 C<br/>
+Isoterma 0C (estimada por gradiente): 5577 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-69.6275,-20.42167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>UNAP (Universidad Arturo Prat), Iquique</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>UNAP (Universidad Arturo Prat), Iquique</b> (codigo 200010)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 20.2 C<br/>
+Isoterma 0C (estimada por gradiente): 3138 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.13083,-20.27083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ollagüe</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Ollagüe</b> (codigo 210901)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 18 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-68.25583,-21.22417,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>El Loa, Calama Ad.</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>El Loa, Calama Ad.</b> (codigo 220002)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 22.6 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:14 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-68.8925,-22.49806,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chorrillos, Calama</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Chorrillos, Calama</b> (codigo 220026)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 22.5 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-68.91028,-22.45,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Tocopilla (C.D.P)</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Tocopilla (C.D.P)</b> (codigo 220027)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 19.8 C<br/>
+Isoterma 0C (estimada por gradiente): 3127 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.18611,-22.06389,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Maria Elena, Salitrera</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Maria Elena, Salitrera</b> (codigo 220028)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 28.4 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 11:45 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-69.67167,-22.34333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Universidad Católica del Norte, Antofagasta</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Universidad Católica del Norte, Antofagasta</b> (codigo 230002)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 19.9 C<br/>
+Isoterma 0C (estimada por gradiente): 3093 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.41111,-23.68083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Llano de Chajnantor, observatorio APEX</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Llano de Chajnantor, observatorio APEX</b> (codigo 230021)<br/>
+Precipitacion: —<br/>
+Temperatura: -1.8 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-67.75917,-23.00583,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mejillones</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Mejillones</b> (codigo 230022)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 21.5 C<br/>
+Isoterma 0C (estimada por gradiente): 3339 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.44333,-23.10917,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cerro Paranal, observatorio astronómico</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Cerro Paranal, observatorio astronómico</b> (codigo 240005)<br/>
+Precipitacion: —<br/>
+Temperatura: 15.4 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-70.40472,-24.6275,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Taltal</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Taltal</b> (codigo 250005)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 19.7 C<br/>
+Isoterma 0C (estimada por gradiente): 3068 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.48417,-25.41111,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ad. Ricardo García Posada, El Salvador</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Ad. Ricardo García Posada, El Salvador</b> (codigo 260010)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 24.5 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 11:40 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-69.75139,-26.31306,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mataveri  Isla de Pascua Ap.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Mataveri  Isla de Pascua Ap.</b> (codigo 270001)<br/>
+Precipitacion: —<br/>
+Temperatura: 18.4 C<br/>
+Isoterma 0C (estimada por gradiente): 2900 m<br/>
+Ultimo dato: 10:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-109.4325,-27.15889,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Desierto de Atacama, Caldera  Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Desierto de Atacama, Caldera  Ad.</b> (codigo 270008)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 16.7 C<br/>
+Isoterma 0C (estimada por gradiente): 2773 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.78111,-27.25444,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Copiapó Universidad de Atacama</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Copiapó Universidad de Atacama</b> (codigo 270009)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 19 C<br/>
+Isoterma 0C (estimada por gradiente): 3285 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.35333,-27.35889,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Copiapo, Cerro Antenas</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Copiapo, Cerro Antenas</b> (codigo 270022)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 21 C<br/>
+Isoterma 0C (estimada por gradiente): 4177 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.28305,-27.36278,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Freirina Nicolasa</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Freirina Nicolasa</b> (codigo 280010)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 18.8 C<br/>
+Isoterma 0C (estimada por gradiente): 3048 m<br/>
+Ultimo dato: 11:40 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.01,-28.51694,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Alto del Carmen, Los Sauces</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Alto del Carmen, Los Sauces</b> (codigo 280028)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 28.2 C<br/>
+Isoterma 0C (estimada por gradiente): 5192 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.47055,-28.77778,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La Florida, La Serena Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>La Florida, La Serena Ad.</b> (codigo 290004)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 17.7 C<br/>
+Isoterma 0C (estimada por gradiente): 2869 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.20667,-29.91444,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cerro la Silla, observatorio astronómico</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Cerro la Silla, observatorio astronómico</b> (codigo 290013)<br/>
+Precipitacion: —<br/>
+Temperatura: 13.1 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-70.73444,-29.25833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ovalle Escuela Agrícola</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Ovalle Escuela Agrícola</b> (codigo 300024)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 21.6 C<br/>
+Isoterma 0C (estimada por gradiente): 3633 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.18667,-30.58,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>El Tololo</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>El Tololo</b> (codigo 300034)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 15 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-70.80361,-30.16833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vicuña, Parque Los Pimientos</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Vicuña, Parque Los Pimientos</b> (codigo 300046)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 24.9 C<br/>
+Isoterma 0C (estimada por gradiente): 4473 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.69722,-30.03361,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Monte Patria, Municipalidad</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Monte Patria, Municipalidad</b> (codigo 300047)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 22.3 C<br/>
+Isoterma 0C (estimada por gradiente): 3837 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.95778,-30.69833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Canela Baja (Liceo Padre José Herde)</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Canela Baja (Liceo Padre José Herde)</b> (codigo 310023)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 15 C<br/>
+Isoterma 0C (estimada por gradiente): 2651 m<br/>
+Ultimo dato: <br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.41278,-31.39,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Liceo Samuel Román Rojas (Combarbalá)</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Liceo Samuel Román Rojas (Combarbalá)</b> (codigo 310024)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 22.5 C<br/>
+Isoterma 0C (estimada por gradiente): 4398 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.99889,-31.18806,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Vivero Conaf, Illapel</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Vivero Conaf, Illapel</b> (codigo 310040)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 21.9 C<br/>
+Isoterma 0C (estimada por gradiente): 3702 m<br/>
+Ultimo dato: 11:30 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.15194,-31.6325,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Salamanca Pisco Capel</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Salamanca Pisco Capel</b> (codigo 310044)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 21.1 C<br/>
+Isoterma 0C (estimada por gradiente): 3762 m<br/>
+Ultimo dato: 11:40 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.95944,-31.78722,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>San Felipe Escuela Agrícola</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>San Felipe Escuela Agrícola</b> (codigo 320019)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 20.8 C<br/>
+Isoterma 0C (estimada por gradiente): 3862 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.70694,-32.75528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Viña del Mar  Ad. (Torquemada)</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Viña del Mar  Ad. (Torquemada)</b> (codigo 320041)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 18.2 C<br/>
+Isoterma 0C (estimada por gradiente): 2940 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.47611,-32.94944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Llay Llay, Las Peñas</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Llay Llay, Las Peñas</b> (codigo 320045)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 21.3 C<br/>
+Isoterma 0C (estimada por gradiente): 3700 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.91306,-32.88139,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Chincolco Liceo agrícola</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Chincolco Liceo agrícola</b> (codigo 320049)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 21.2 C<br/>
+Isoterma 0C (estimada por gradiente): 3927 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.83167,-32.2225,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Los Libertadores</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Los Libertadores</b> (codigo 320051)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura:  C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-70.11917,-32.84556,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Catemu</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Catemu</b> (codigo 320055)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 19.3 C<br/>
+Isoterma 0C (estimada por gradiente): 3412 m<br/>
+Ultimo dato: 11:45 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.94278,-32.75889,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Quintero, Climatológica</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Quintero, Climatológica</b> (codigo 320056)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 15.3 C<br/>
+Isoterma 0C (estimada por gradiente): 2359 m<br/>
+Ultimo dato: 11:45 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.52278,-32.78417,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Zapallar Catapilco</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Zapallar Catapilco</b> (codigo 320063)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 20.5 C<br/>
+Isoterma 0C (estimada por gradiente): 3235 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.29778,-32.56139,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>El Tártaro (Putaendo)</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>El Tártaro (Putaendo)</b> (codigo 320121)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 18.3 C<br/>
+Isoterma 0C (estimada por gradiente): 3748 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.70417,-32.57083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Panquehue</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Panquehue</b> (codigo 320122)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 21.4 C<br/>
+Isoterma 0C (estimada por gradiente): 3811 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.835,-32.76917,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>San Esteban, Liceo</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>San Esteban, Liceo</b> (codigo 320123)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 19.7 C<br/>
+Isoterma 0C (estimada por gradiente): 3866 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.57805,-32.80111,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Quillota, Liceo Agrícola</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Quillota, Liceo Agrícola</b> (codigo 320124)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 22.6 C<br/>
+Isoterma 0C (estimada por gradiente): 3600 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.27139,-32.90722,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Jardín Botánico (ex Parque Fauna), Viña del Mar</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Jardín Botánico (ex Parque Fauna), Viña del Mar</b> (codigo 330006)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 19.6 C<br/>
+Isoterma 0C (estimada por gradiente): 3065 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.50194,-33.045,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rodelillo, Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Rodelillo, Ad.</b> (codigo 330007)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 20 C<br/>
+Isoterma 0C (estimada por gradiente): 3412 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.55639,-33.06528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Eulogio Sánchez, Tobalaba Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Eulogio Sánchez, Tobalaba Ad.</b> (codigo 330019)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 18.6 C<br/>
+Isoterma 0C (estimada por gradiente): 3511 m<br/>
+Ultimo dato: 12:13 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.54861,-33.45528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Quinta Normal, Santiago</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Quinta Normal, Santiago</b> (codigo 330020)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 19.5 C<br/>
+Isoterma 0C (estimada por gradiente): 3520 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.68278,-33.445,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pudahuel Santiago</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Pudahuel Santiago</b> (codigo 330021)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 17.3 C<br/>
+Isoterma 0C (estimada por gradiente): 3136 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.78778,-33.37833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Santo Domingo, Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Santo Domingo, Ad.</b> (codigo 330030)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 14.4 C<br/>
+Isoterma 0C (estimada por gradiente): 2292 m<br/>
+Ultimo dato: 12:14 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.61333,-33.65611,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Juan Fernández, Estación Meteorológica.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Juan Fernández, Estación Meteorológica.</b> (codigo 330031)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 14.1 C<br/>
+Isoterma 0C (estimada por gradiente): 2209 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-78.83305,-33.63583,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Talagante</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Talagante</b> (codigo 330071)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura:  C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-70.84944,-33.67028,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Río Clarillo</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Río Clarillo</b> (codigo 330075)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 18.8 C<br/>
+Isoterma 0C (estimada por gradiente): 3768 m<br/>
+Ultimo dato: 11:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.49667,-33.72833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>El Colorado</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>El Colorado</b> (codigo 330077)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 6.6 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-70.29361,-33.35,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lo Prado Cerro San Francisco</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Lo Prado Cerro San Francisco</b> (codigo 330111)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 17 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-70.94861,-33.45806,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>San José  Guayacán</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>San José  Guayacán</b> (codigo 330112)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 19 C<br/>
+Isoterma 0C (estimada por gradiente): 3851 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.35056,-33.61528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>El Paico</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>El Paico</b> (codigo 330113)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 19 C<br/>
+Isoterma 0C (estimada por gradiente): 3198 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.00806,-33.70639,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>San Pablo - DASA</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>San Pablo - DASA</b> (codigo 330114)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 18.9 C<br/>
+Isoterma 0C (estimada por gradiente): 3398 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.74667,-33.44222,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lo Pinto</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Lo Pinto</b> (codigo 330118)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 18.5 C<br/>
+Isoterma 0C (estimada por gradiente): 3358 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.73222,-33.26805,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Curacaví Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Curacaví Ad.</b> (codigo 330121)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 18.7 C<br/>
+Isoterma 0C (estimada por gradiente): 3080 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.16778,-33.41111,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Aguas Andinas, La Florida</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Aguas Andinas, La Florida</b> (codigo 330122)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 18.4 C<br/>
+Isoterma 0C (estimada por gradiente): 3501 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.54833,-33.545,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>El Milagro, Buin</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>El Milagro, Buin</b> (codigo 330160)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 16.2 C<br/>
+Isoterma 0C (estimada por gradiente): 2952 m<br/>
+Ultimo dato: <br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.76444,-33.75444,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>San Antonio, Lo Zarate</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>San Antonio, Lo Zarate</b> (codigo 330161)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 15.4 C<br/>
+Isoterma 0C (estimada por gradiente): 2472 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.50611,-33.53055,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Colina (Reg.)</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Colina (Reg.)</b> (codigo 330162)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 17.1 C<br/>
+Isoterma 0C (estimada por gradiente): 3386 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.64306,-33.16222,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Peldehue Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Peldehue Ad.</b> (codigo 330163)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 18.7 C<br/>
+Isoterma 0C (estimada por gradiente): 3547 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.68583,-33.11389,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Llanos de Caleu - La Dormida</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Llanos de Caleu - La Dormida</b> (codigo 330193)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 16 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-71.00139,-33.04944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>General Freire, Curicó Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>General Freire, Curicó Ad.</b> (codigo 340031)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 6.1 C<br/>
+Isoterma 0C (estimada por gradiente): 1167 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.21694,-34.96944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rancagua</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Rancagua</b> (codigo 340045)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 17.3 C<br/>
+Isoterma 0C (estimada por gradiente): 3144 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.77611,-34.17222,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Quimávida</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Quimávida</b> (codigo 340048)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 16.2 C<br/>
+Isoterma 0C (estimada por gradiente): 2808 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.99694,-34.215,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nilahue - La Quebrada</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Nilahue - La Quebrada</b> (codigo 340066)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 14.2 C<br/>
+Isoterma 0C (estimada por gradiente): 2266 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.73528,-34.66083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Portezuelo-Codelco</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Portezuelo-Codelco</b> (codigo 340093)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 14 C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-70.57917,-34.19833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pichilemu aeródromo</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Pichilemu aeródromo</b> (codigo 340115)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 12.6 C<br/>
+Isoterma 0C (estimada por gradiente): 1963 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.01861,-34.39417,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Panguilemo</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Panguilemo</b> (codigo 350028)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 10.1 C<br/>
+Isoterma 0C (estimada por gradiente): 1673 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.60111,-35.37778,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Escuela de Artillería Linares</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Escuela de Artillería Linares</b> (codigo 350901)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 8.5 C<br/>
+Isoterma 0C (estimada por gradiente): 1468 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.59278,-35.83694,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>General Bernardo OHiggins, Chillán Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>General Bernardo OHiggins, Chillán Ad.</b> (codigo 360011)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 15.1 C<br/>
+Isoterma 0C (estimada por gradiente): 2475 m<br/>
+Ultimo dato: 12:14 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.03667,-36.58583,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Carriel Sur, Concepción Ap.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Carriel Sur, Concepción Ap.</b> (codigo 360019)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 15.3 C<br/>
+Isoterma 0C (estimada por gradiente): 2362 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.06639,-36.78055,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Retiro Copihue</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Retiro Copihue</b> (codigo 360047)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 13.4 C<br/>
+Isoterma 0C (estimada por gradiente): 2224 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.75806,-36.07555,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Liceo Polivalente San Nicolás</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Liceo Polivalente San Nicolás</b> (codigo 360097)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 15.5 C<br/>
+Isoterma 0C (estimada por gradiente): 2503 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.21944,-36.50556,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>María Dolores, Los Angeles Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>María Dolores, Los Angeles Ad.</b> (codigo 370033)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 15 C<br/>
+Isoterma 0C (estimada por gradiente): 2422 m<br/>
+Ultimo dato: 12:06 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.42389,-37.39694,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>El Huertón liceo agrícola, Los Ángeles</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>El Huertón liceo agrícola, Los Ángeles</b> (codigo 370036)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 15.3 C<br/>
+Isoterma 0C (estimada por gradiente): 2527 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.275,-37.45694,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La Colcha, Arauco</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>La Colcha, Arauco</b> (codigo 370077)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 13.7 C<br/>
+Isoterma 0C (estimada por gradiente): 2252 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.3525,-37.425,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Maquehue, Temuco Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Maquehue, Temuco Ad.</b> (codigo 380013)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 12.9 C<br/>
+Isoterma 0C (estimada por gradiente): 2078 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.63194,-38.76778,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Lonquimay</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Lonquimay</b> (codigo 380018)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 3.8 C<br/>
+Isoterma 0C (estimada por gradiente): 1497 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.36194,-38.455,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La Araucanía Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>La Araucanía Ad.</b> (codigo 380029)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 10.9 C<br/>
+Isoterma 0C (estimada por gradiente): 1775 m<br/>
+Ultimo dato: 12:14 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.65333,-38.93444,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Rucamanque-UFRO</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Rucamanque-UFRO</b> (codigo 380032)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 10.2 C<br/>
+Isoterma 0C (estimada por gradiente): 1913 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.60556,-38.66083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Maquehue-UFRO</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Maquehue-UFRO</b> (codigo 380033)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 11.7 C<br/>
+Isoterma 0C (estimada por gradiente): 1874 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.69444,-38.83778,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Victoria (Reg.)</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Victoria (Reg.)</b> (codigo 380063)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 12.9 C<br/>
+Isoterma 0C (estimada por gradiente): 2321 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.34333,-38.22889,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pichoy, Valdivia Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Pichoy, Valdivia Ad.</b> (codigo 390006)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 11.9 C<br/>
+Isoterma 0C (estimada por gradiente): 1849 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.08722,-39.65667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Isla Teja  (Universidad Austral Valdivia)</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Isla Teja  (Universidad Austral Valdivia)</b> (codigo 390015)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 11.1 C<br/>
+Isoterma 0C (estimada por gradiente): 1723 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.25833,-39.79944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Villarrica</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Villarrica</b> (codigo 390028)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 7.4 C<br/>
+Isoterma 0C (estimada por gradiente): 1531 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.11222,-39.19,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Corral ESSAL</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Corral ESSAL</b> (codigo 390043)<br/>
+Precipitacion: —<br/>
+Temperatura: 11.6 C<br/>
+Isoterma 0C (estimada por gradiente): 1809 m<br/>
+Ultimo dato: <br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.42611,-39.89,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pucón Aeródromo</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Pucón Aeródromo</b> (codigo 390056)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 8.8 C<br/>
+Isoterma 0C (estimada por gradiente): 1622 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.91694,-39.29111,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Juan Kalt Bode (Fundación Adolfo Matthei)</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Juan Kalt Bode (Fundación Adolfo Matthei)</b> (codigo 400013)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 10.8 C<br/>
+Isoterma 0C (estimada por gradiente): 1715 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.11222,-40.59056,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>La Unión, Agrotec</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>La Unión, Agrotec</b> (codigo 400058)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 10.4 C<br/>
+Isoterma 0C (estimada por gradiente): 1660 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.00389,-40.31,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fundo el Maitén, Paillaco</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Fundo el Maitén, Paillaco</b> (codigo 400060)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 8.3 C<br/>
+Isoterma 0C (estimada por gradiente): 1471 m<br/>
+Ultimo dato: 11:40 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.65889,-40.08361,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Purranque</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Purranque</b> (codigo 400061)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 10 C<br/>
+Isoterma 0C (estimada por gradiente): 1613 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.02361,-40.86667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>El Tepual  Puerto Montt Ap.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>El Tepual  Puerto Montt Ap.</b> (codigo 410005)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 10.3 C<br/>
+Isoterma 0C (estimada por gradiente): 1675 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.09583,-41.4475,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Ancud Liceo Agrícola</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Ancud Liceo Agrícola</b> (codigo 410026)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 11.4 C<br/>
+Isoterma 0C (estimada por gradiente): 1785 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.81639,-41.86611,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Escuela Mirasol, Puerto Montt</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Escuela Mirasol, Puerto Montt</b> (codigo 410027)<br/>
+Precipitacion: —<br/>
+Temperatura: 10.2 C<br/>
+Isoterma 0C (estimada por gradiente): 1669 m<br/>
+Ultimo dato: 11:45 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.96889,-41.47944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto Varas ESSAL</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Puerto Varas ESSAL</b> (codigo 410040)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 11.4 C<br/>
+Isoterma 0C (estimada por gradiente): 1824 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.97667,-41.32444,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Nueva Chaitén</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Nueva Chaitén</b> (codigo 420015)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 12 C<br/>
+Isoterma 0C (estimada por gradiente): 1872 m<br/>
+Ultimo dato: 12:14 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.835,-42.78528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Quellón Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Quellón Ad.</b> (codigo 430001)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 10 C<br/>
+Isoterma 0C (estimada por gradiente): 1551 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.63278,-43.13361,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Futaleufú Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Futaleufú Ad.</b> (codigo 430002)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 6.2 C<br/>
+Isoterma 0C (estimada por gradiente): 1304 m<br/>
+Ultimo dato: 12:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.85222,-43.18889,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Melinka Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Melinka Ad.</b> (codigo 430009)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 10.5 C<br/>
+Isoterma 0C (estimada por gradiente): 1626 m<br/>
+Ultimo dato: 13:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-73.73944,-43.89778,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cisnes Puyuhuapi</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Cisnes Puyuhuapi</b> (codigo 440004)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 8.1 C<br/>
+Isoterma 0C (estimada por gradiente): 1257 m<br/>
+Ultimo dato: 13:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.55528,-44.32333,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Puerto Aysén Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Puerto Aysén Ad.</b> (codigo 450001)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 7.7 C<br/>
+Isoterma 0C (estimada por gradiente): 1195 m<br/>
+Ultimo dato: 13:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.67722,-45.39944,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Teniente Vidal, Coyhaique Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Teniente Vidal, Coyhaique Ad.</b> (codigo 450004)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 5.5 C<br/>
+Isoterma 0C (estimada por gradiente): 1145 m<br/>
+Ultimo dato: 13:14 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.10222,-45.59083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Balmaceda Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Balmaceda Ad.</b> (codigo 450005)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 4.2 C<br/>
+Isoterma 0C (estimada por gradiente): 1163 m<br/>
+Ultimo dato: 13:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.67778,-45.91833,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Mirador Marchant, Coyhaique</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Mirador Marchant, Coyhaique</b> (codigo 450022)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 4.9 C<br/>
+Isoterma 0C (estimada por gradiente): 1192 m<br/>
+Ultimo dato: 13:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.09806,-45.52528,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Villa OHiggins subcomisaría</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Villa OHiggins subcomisaría</b> (codigo 480002)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 7.9 C<br/>
+Isoterma 0C (estimada por gradiente): 1495 m<br/>
+Ultimo dato: 13:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.56028,-48.47139,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Teniente Gallardo, Puerto Natales Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Teniente Gallardo, Puerto Natales Ad.</b> (codigo 510005)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 8.7 C<br/>
+Isoterma 0C (estimada por gradiente): 1407 m<br/>
+Ultimo dato: 13:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.52889,-51.66722,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Río Serrano, Torres del Paine</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Río Serrano, Torres del Paine</b> (codigo 510020)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 5.7 C<br/>
+Isoterma 0C (estimada por gradiente): 899 m<br/>
+Ultimo dato: 12:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-72.97028,-51.21667,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Carlos Ibañez, Punta Arenas Ap.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Carlos Ibañez, Punta Arenas Ap.</b> (codigo 520006)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 9.3 C<br/>
+Isoterma 0C (estimada por gradiente): 1474 m<br/>
+Ultimo dato: 13:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.83861,-53.00167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Instituto de la Patagonia (Jorge Schytte)</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Instituto de la Patagonia (Jorge Schytte)</b> (codigo 520012)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 10.3 C<br/>
+Isoterma 0C (estimada por gradiente): 1596 m<br/>
+Ultimo dato: 13:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.8875,-53.13,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Punta Arenas Unidad Aeropolicial</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Punta Arenas Unidad Aeropolicial</b> (codigo 520014)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 9.3 C<br/>
+Isoterma 0C (estimada por gradiente): 1484 m<br/>
+Ultimo dato: 12:45 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.92639,-53.15278,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Magallanes Villa Tehuelche</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Magallanes Villa Tehuelche</b> (codigo 520015)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 9.6 C<br/>
+Isoterma 0C (estimada por gradiente): 1653 m<br/>
+Ultimo dato: 13:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-71.41611,-52.42889,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Cerro Sombrero, Estrecho de Magallanes</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Cerro Sombrero, Estrecho de Magallanes</b> (codigo 520030)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 8.7 C<br/>
+Isoterma 0C (estimada por gradiente): 1402 m<br/>
+Ultimo dato: 13:00 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-69.29472,-52.77639,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Fuentes Martínez, Porvenir Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Fuentes Martínez, Porvenir Ad.</b> (codigo 530005)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 9.1 C<br/>
+Isoterma 0C (estimada por gradiente): 1425 m<br/>
+Ultimo dato: 13:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.32611,-53.25361,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Escuela Alberto Hurtado</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Escuela Alberto Hurtado</b> (codigo 530008)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 9.2 C<br/>
+Isoterma 0C (estimada por gradiente): 1475 m<br/>
+Ultimo dato: 13:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-70.94528,-53.16694,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Pampa Guanaco, Tierra del Fuego</name>
+    <styleUrl>#nivel-gris</styleUrl>
+    <description><![CDATA[
+<b>Pampa Guanaco, Tierra del Fuego</b> (codigo 540008)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura:  C<br/>
+Isoterma 0C (estimada por gradiente):  m<br/>
+Ultimo dato: 13:15 05 Sep 2026<br/>
+Alerta: Sin datos recientes
+]]></description>
+    <Point><coordinates>-68.80389,-54.05083,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>Guardiamarina Zañartu, Pto Williams Ad.</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>Guardiamarina Zañartu, Pto Williams Ad.</b> (codigo 550001)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: 6.7 C<br/>
+Isoterma 0C (estimada por gradiente): 1043 m<br/>
+Ultimo dato: 13:15 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-67.61556,-54.93167,0</coordinates></Point>
+  </Placemark>
+  <Placemark>
+    <name>C.M.A. Eduardo Frei Montalva, Antártica</name>
+    <styleUrl>#nivel-verde</styleUrl>
+    <description><![CDATA[
+<b>C.M.A. Eduardo Frei Montalva, Antártica</b> (codigo 950001)<br/>
+Precipitacion: 0 mm/h<br/>
+Temperatura: -1.4 C<br/>
+Isoterma 0C (estimada por gradiente): -170 m<br/>
+Ultimo dato: 13:14 05 Sep 2026<br/>
+Alerta: Normal
+]]></description>
+    <Point><coordinates>-58.97972,-62.19194,0</coordinates></Point>
+  </Placemark>
+ </Document>
+</kml>
